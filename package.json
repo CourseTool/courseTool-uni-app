@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"axios": "^0.26.1",
+		"axios-miniprogram-adapter": "^0.3.5",
+		"image-tools": "^1.4.0",
+		"pinia": "^2.1.7",
+		"pinia-plugin-persistedstate": "^3.2.0",
+		"qs": "^5.0"
+	}
+}
