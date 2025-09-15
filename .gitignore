@@ -1,0 +1,15 @@
+# 忽略 node_modules 依赖包
+node_modules/
+
+# 忽略打包输出
+unpackage/
+
+# 忽略 macOS 系统文件
+.DS_Store
+
+# 忽略 HBuilderX 相关文件
+.hbuilderx/
+.idea
+
+# 可根据需要保留 .git 文件夹（如需忽略请取消注释）
+#!.git/
