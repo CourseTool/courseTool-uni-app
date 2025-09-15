@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选修课",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "select-class": "../../components/select-class/select-class"
+  }
+}

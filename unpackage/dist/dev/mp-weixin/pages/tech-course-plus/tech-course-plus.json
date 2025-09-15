@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "教师周次课表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "select-class": "../../components/select-class/select-class",
+    "course-plus-item": "../../components/course-plus-item/course-plus-item"
+  }
+}

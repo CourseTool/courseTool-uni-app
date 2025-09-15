@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新生答疑",
+  "usingComponents": {
+    "custom-tabbar": "../../components/custom-tabbar/custom-tabbar"
+  }
+}

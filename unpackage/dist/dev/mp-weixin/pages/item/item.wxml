@@ -1,0 +1,1 @@
+<view class="item"><view class="link"> 软件学院2-406web项目组 </view><view class="link"> 项目组官网: <uni-link wx:if="{{a}}" u-i="6cd99837-0" bind:__l="__l" u-p="{{a}}"></uni-link></view><view bindtap="{{c}}" class="csdn"> 个人博客: <uni-link wx:if="{{b}}" u-i="6cd99837-1" bind:__l="__l" u-p="{{b}}"></uni-link></view></view>

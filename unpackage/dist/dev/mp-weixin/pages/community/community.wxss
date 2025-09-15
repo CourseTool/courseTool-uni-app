@@ -1,0 +1,184 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+button {
+  outline: none;
+  border: none;
+}
+page {
+  font-family: Monospace;
+}
+.lost-found {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0eeef;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.lost-found .header {
+  width: 100vw;
+  height: 80rpx;
+  background-color: #4285f4;
+  color: #fff;
+  font-size: 36rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lost-found .nav {
+  width: 100vw;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 30rpx;
+  font-weight: bold;
+  position: relative;
+}
+.lost-found .nav .nav-item {
+  position: relative;
+  z-index: 2;
+}
+.lost-found .nav .nav-item view {
+  mix-blend-mode: hue;
+}
+.lost-found .nav .active {
+  position: absolute;
+  left: 0rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 120rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  background-color: #4285f4;
+  color: #fff;
+  text-align: center;
+  line-height: 60rpx;
+  z-index: 1;
+  left: 30rpx;
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.lost-found .nav .white {
+  color: #fff;
+}
+.lost-found .list {
+  width: 97vw;
+  height: 90vh;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 20rpx;
+}
+.lost-found .list .lost-found-item {
+  margin-top: 20rpx;
+  padding: 20rpx;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 5rpx 10rpx #c8c8c6;
+  box-sizing: border-box;
+}
+.lost-found .list .lost-found-item .push-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lost-found .list .lost-found-item .push-info .left-pic image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.lost-found .list .lost-found-item .push-info .right-info {
+  margin-left: 10rpx;
+}
+.lost-found .list .lost-found-item .push-info .right-info view:first-child {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.lost-found .list .lost-found-item .push-info .right-info view:last-child {
+  font-size: 22rpx;
+  color: #c8c8c6;
+}
+.lost-found .list .lost-found-item .content {
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  color: #333;
+  line-height: 1.5;
+  letter-spacing: 1rpx;
+  font-family: "Gill Sans";
+}
+.lost-found .list .lost-found-item .img-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.lost-found .list .lost-found-item .img-list image {
+  width: 22vw;
+  height: 22vw;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+}
+.lost-found .list .lost-found-item .img-list image:nth-child(3n+3) {
+  margin-right: 0;
+}
+.lost-found .list .lost-found-item .footer-tool {
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20rpx;
+  color: #c8c8c6;
+}
+.lost-found .list .lost-found-item .footer-tool > view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lost-found .list .lost-found-item .footer-tool button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 22rpx;
+  padding: 0;
+  margin: 0;
+  color: #c8c8c6;
+}
+.lost-found .list .lost-found-item .footer-tool button::after {
+  content: none;
+}
+.lost-found .list .lost-found-item .footer-tool .time image {
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 5rpx;
+}

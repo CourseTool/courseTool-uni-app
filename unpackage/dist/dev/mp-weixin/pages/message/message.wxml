@@ -1,0 +1,1 @@
+<view class="message"><rich-text nodes="{{a}}"/></view>

@@ -1,0 +1,1 @@
+<view class="electric"><view class="code"><input type="text" placeholder="请输入你的宿舍号" value="{{a}}" bindinput="{{b}}"/></view><view bindtap="{{c}}" class="bth"><view>查询</view></view></view>

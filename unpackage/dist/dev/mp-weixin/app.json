@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/course/course",
+    "pages/item/item",
+    "pages/teacherCourse/teacherCourse",
+    "pages/classroomCourse/classroomCourse",
+    "pages/map/map",
+    "pages/more-fn/more-fn",
+    "pages/message/message",
+    "pages/evaluate/evaluate",
+    "pages/course-plus/course-plus",
+    "pages/tech-course-plus/tech-course-plus",
+    "pages/calendar-course/calendar-course",
+    "pages/calendar-tech-course/calendar-tech-course",
+    "pages/lovers-course/lovers-course",
+    "pages/community/community",
+    "pages/calendar-classroom-course/calendar-classroom-course",
+    "pages/electives/electives",
+    "pages/custom/custom",
+    "pages/electric/electric",
+    "pages/newborn-aq/newborn-aq",
+    "pages/test-result/test-result",
+    "pages/advertisement/advertisement",
+    "pages/empty-classroom/empty-classroom",
+    "pages/score/score",
+    "pages/ecard/ecard"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "plugins": {
+    "wxacommentplugin": {
+      "version": "latest",
+      "provider": "wx82e6ae1175f264fa"
+    }
+  },
+  "usingComponents": {}
+}

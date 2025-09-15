@@ -1,0 +1,1 @@
+<view class=""><view class="tel" bindtap="{{a}}">联系电话:16620481556(点击复制)</view><image style="width:100vw;height:25000rpx" src="{{b}}" mode=""></image></view>

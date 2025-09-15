@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搭子课表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "select-class": "../../components/select-class/select-class",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "wu-calendar": "../../uni_modules/wu-calendar/components/wu-calendar/wu-calendar"
+  }
+}

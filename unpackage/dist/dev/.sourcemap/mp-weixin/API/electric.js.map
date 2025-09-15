@@ -1,0 +1,1 @@
+{"version":3,"file":"electric.js","sources":["API/electric.js"],"sourcesContent":["import axios from '@/uilts/axios.js'\n\nexport function getElectricAPI(data) {\n\treturn axios.post(\"https://ecard.hniu.cn:9029/GetUserInfoXT.aspx\", data)\n}"],"names":["axios"],"mappings":";;AAEO,SAAS,eAAe,MAAM;AACpC,SAAOA,oBAAM,KAAK,iDAAiD,IAAI;AACxE;;"}

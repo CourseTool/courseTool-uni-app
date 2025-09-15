@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "教室课表日历",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "select-class": "../../components/select-class/select-class",
+    "uni-calendar": "../../uni_modules/uni-calendar/components/uni-calendar/uni-calendar"
+  }
+}

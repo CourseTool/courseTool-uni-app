@@ -1,0 +1,235 @@
+{
+    "pages": [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/home/home",
+            "style": {
+                "navigationBarTitleText": "courseTool"
+            }
+        },
+        {
+            "path": "pages/my/my",
+            "style": {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/course/course",
+            "style": {
+                "navigationBarTitleText": "课表",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/item/item",
+            "style": {
+                "navigationBarTitleText": "制作团队",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/teacherCourse/teacherCourse",
+            "style": {
+                "navigationBarTitleText": "教师课表",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/classroomCourse/classroomCourse",
+            "style": {
+                "navigationBarTitleText": "教室课表",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/map/map",
+            "style": {
+                "navigationBarTitleText": "学校地图",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/more-fn/more-fn",
+            "style": {
+                "navigationBarTitleText": "更多功能",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/message/message",
+            "style": {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/evaluate/evaluate",
+            "style": {
+                "navigationBarTitleText": "评价",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/course-plus/course-plus",
+            "style": {
+                "navigationBarTitleText": "学生周次课表",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/tech-course-plus/tech-course-plus",
+            "style": {
+                "navigationBarTitleText": "教师周次课表",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/calendar-course/calendar-course",
+            "style": {
+                "navigationBarTitleText": "学生日历",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/calendar-tech-course/calendar-tech-course",
+            "style": {
+                "navigationBarTitleText": "教师日历",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/lovers-course/lovers-course",
+            "style": {
+                "navigationBarTitleText": "搭子课表",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/community/community",
+            "style": {
+                "navigationBarTitleText": "湘信社区",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/calendar-classroom-course/calendar-classroom-course",
+            "style": {
+                "navigationBarTitleText": "教室课表日历",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/electives/electives",
+            "style": {
+                "navigationBarTitleText": "选修课",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/custom/custom",
+            "style": {
+                "navigationBarTitleText": "自定义首页"
+            }
+        },
+        {
+            "path": "pages/electric/electric",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/newborn-aq/newborn-aq",
+            "style": {
+                "navigationBarTitleText": "新生答疑"
+            }
+        },
+        // {
+        // 	"path": "pages/career-test/career-test",
+        // 	"style": {
+        // 		"navigationBarTitleText": "职业测试"
+        // 	}
+        // },
+        {
+            "path": "pages/test-result/test-result",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/advertisement/advertisement",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/empty-classroom/empty-classroom",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/score/score",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/ecard/ecard",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "uniIdRouter": {},
+    "usingComponents": true,
+    // "tabBar": {
+    // 	"borderStyle": "black",
+    // 	"backgroundColor": "#fff",
+    // 	"selectedColor": "#6598d9",
+    // 	"custom": true,
+    // 	"list": [{
+    // 			"text": "首页",
+    // 			"pagePath": "pages/home/home",
+    // 			"iconPath": "static/nav/shouye2.png",
+    // 			"selectedIconPath": "static/nav/shouye2.png"
+    // 		},
+    // 		{
+    // 			"text": "社区",
+    // 			"pagePath": "pages/community/community",
+    // 			"iconPath": "static/nav/loufang.png",
+    // 			"selectedIconPath": "static/nav/loufang.png"
+    // 		},
+    // 		{
+    // 			"text": "更多功能",
+    // 			"pagePath": "pages/more-fn/more-fn",
+    // 			"iconPath": "static/nav/caidan.png",
+    // 			"selectedIconPath": "static/nav/caidan.png"
+    // 		},
+    // 		{
+    // 			"text": "我的",
+    // 			"pagePath": "pages/my/my",
+    // 			"iconPath": "static/nav/wode1.png",
+    // 			"selectedIconPath": "static/nav/wode1.png"
+    // 		}
+    // 	]
+    // },
+    "plugins": {
+        "wxacommentplugin": {
+            "version": "latest",
+            "provider": "wx82e6ae1175f264fa"
+        }
+    }
+    // "preloadRule": {
+    // 	"pages/home/home": {
+    // 		"network": "all",
+    // 		"packages": ["page_extend"]
+    // 	}
+    // },
+}

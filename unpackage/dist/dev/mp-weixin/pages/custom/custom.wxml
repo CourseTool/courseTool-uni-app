@@ -1,0 +1,1 @@
+<view class="custom"><view class="fn-list"><view wx:for="{{a}}" wx:for-item="d" class="fn-item"><view class="title">{{d.a}}</view><label bindtap="{{d.d}}" class="radio"><radio checked="{{d.b}}"/> {{d.c}}</label></view><view class="fn-item"><view class="title">新布局</view><label bindtap="{{c}}" class="radio"><radio checked="{{b}}"/></label></view></view></view>

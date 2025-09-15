@@ -1,0 +1,1 @@
+{"version":3,"file":"map.js","sources":["pages/map/map.vue?type=page"],"sourcesContent":["import MiniProgramPage from '/Users/zhangrui/Library/Mobile Documents/com~apple~CloudDocs/Desktop/桌面/WeChatApp/course-wechat/pages/map/map.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

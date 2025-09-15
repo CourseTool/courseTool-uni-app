@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "湘信社区",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "custom-tabbar": "../../components/custom-tabbar/custom-tabbar"
+  }
+}

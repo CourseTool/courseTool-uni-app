@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "更多功能",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-tabbar": "../../components/custom-tabbar/custom-tabbar"
+  }
+}

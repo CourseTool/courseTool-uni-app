@@ -1,0 +1,10 @@
+
+	/*每个页面公共css */
+image,
+	img {
+		width: 100%;
+		height: 100%;
+		vertical-align: middle;
+		object-fit: cover;
+}
+page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

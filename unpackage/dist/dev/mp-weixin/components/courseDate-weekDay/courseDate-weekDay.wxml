@@ -1,0 +1,1 @@
+<view class="week-date"><view class="time-list"><view wx:for="{{a}}" wx:for-item="date" wx:key="f" bindtap="{{date.d}}" class="{{[date.e && 'select', 'date-item']}}"><view class="{{['weekDay', date.b && 'hasC']}}"><label>{{date.a}}</label></view><view class="day"><label>{{date.c}}</label></view></view></view></view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "课表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "select-class": "../../components/select-class/select-class",
+    "course-date-week-day": "../../components/courseDate-weekDay/courseDate-weekDay",
+    "course-date-week": "../../components/courseDate-week/courseDate-week"
+  }
+}

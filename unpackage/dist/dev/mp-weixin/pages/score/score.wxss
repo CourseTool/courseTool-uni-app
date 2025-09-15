@@ -1,0 +1,168 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+button {
+  outline: none;
+  border: none;
+}
+page {
+  font-family: Monospace;
+}
+
+/* 页面容器 */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+/* 成绩查询区域 */
+.score {
+  width: 95%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 标题 */
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+  color: #333;
+}
+
+/* 输入框 */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+  align-items: center;
+  margin: 20rpx 0;
+}
+
+/* 输入框样式 */
+.input {
+  width: 600rpx;
+  padding: 12rpx;
+  border: 1px solid #ccc;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  color: #333;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+/* 输入框聚焦时的样式 */
+.input:focus {
+  border-color: #4caf50;
+}
+
+/* 查询按钮 */
+.post {
+  width: 650rpx;
+  padding: 15rpx 0;
+  background-color: #4caf50;
+  color: white;
+  font-size: 30rpx;
+  border-radius: 8rpx;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+/* 按钮悬停时的效果 */
+.post:hover {
+  background-color: #45a049;
+}
+
+/* 查询结果部分 */
+.result {
+  margin-top: 30rpx;
+  text-align: left;
+  padding: 10rpx;
+}
+
+/* 查询结果标题 */
+.result-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15rpx;
+}
+
+/* 成绩项样式 */
+.score-group {
+  margin: 20rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.group-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.score-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* 使成绩项能够换行 */
+  gap: 20rpx;
+  justify-content: center;
+}
+.score-list .score-item:last-child:nth-child(odd) {
+  margin-right: 50%;
+}
+
+/* 每个成绩项的样式 */
+.score-item {
+  width: 43%;
+  /* 每行两列展示 */
+  padding: 10rpx;
+  border-radius: 8rpx;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* 课程名称和成绩 */
+.score-item > text {
+  display: block;
+  font-size: 32rpx;
+  margin-bottom: 8rpx;
+}
+
+/* 无结果提示 */
+.no-result {
+  color: #999;
+  font-size: 28rpx;
+}

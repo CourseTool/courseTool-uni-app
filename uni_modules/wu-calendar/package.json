@@ -1,0 +1,90 @@
+{
+  "id": "wu-calendar",
+  "displayName": "wu-calendar 最全日历，动态滑动切换、多滑动模式、多日历类型、多日期选择模式等，全端兼容，无论平台，一致体验。",
+  "version": "1.5.2",
+  "description": "唯一支持动态滑动计算的日历插件，多滑动切换模式（纵、横、不滑动）、多日历类型(周、月)、多日期选择模式(单选、多选、范围)、日历周几(周日、周一)、自定义主题、农历显示等，可以让您纵享丝滑的使用日历",
+  "keywords": [
+    "wu-calendar",
+    "日历",
+    "多日历类型",
+    "动态滑动计算",
+    "wu-ui"
+],
+  "repository": "",
+  "engines": {
+    "HBuilderX": "^3.5.5"
+  },
+  "dcloudext": {
+    "type": "component-vue",
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    },
+    "npmurl": ""
+  },
+  "uni_modules": {
+    "dependencies": [
+		"wu-ui-tools",
+		"wu-icon",
+		"wu-safe-bottom"
+	],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y",
+        "alipay": "n"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "y"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "y",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "小程序": {
+          "微信": "y",
+          "阿里": "y",
+          "百度": "y",
+          "字节跳动": "y",
+          "QQ": "y",
+          "钉钉": "n",
+          "快手": "n",
+          "飞书": "n",
+          "京东": "n"
+        },
+        "快应用": {
+          "华为": "n",
+          "联盟": "n"
+        }
+      }
+    }
+  }
+}

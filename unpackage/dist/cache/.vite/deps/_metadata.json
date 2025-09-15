@@ -1,0 +1,31 @@
+{
+  "hash": "f3993c09",
+  "configHash": "dc90c049",
+  "lockfileHash": "fb52fc80",
+  "browserHash": "632c014a",
+  "optimized": {
+    "qs": {
+      "src": "../../../../../../../../../../../../node_modules/qs/lib/index.js",
+      "file": "qs.js",
+      "fileHash": "0594a54c",
+      "needsInterop": true
+    },
+    "axios": {
+      "src": "../../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "0e6059fb",
+      "needsInterop": false
+    },
+    "axios-miniprogram-adapter": {
+      "src": "../../../../../node_modules/axios-miniprogram-adapter/dist/index.esm.js",
+      "file": "axios-miniprogram-adapter.js",
+      "fileHash": "5a3f2426",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ZS7NZCD4": {
+      "file": "chunk-ZS7NZCD4.js"
+    }
+  }
+}

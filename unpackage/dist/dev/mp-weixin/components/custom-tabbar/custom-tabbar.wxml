@@ -1,0 +1,1 @@
+<view class="tabBar"><view class="cont"><block wx:for="{{a}}" wx:for-item="item" wx:key="f" class="cont-item"><view bindtap="{{item.d}}" class="{{['item', item.e && 'selected']}}"><image src="{{item.a}}"></image><view class="{{['txt', item.c && 'selectedColor']}}">{{item.b}}</view></view></block></view></view>

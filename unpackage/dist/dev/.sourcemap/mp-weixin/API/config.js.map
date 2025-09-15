@@ -1,0 +1,1 @@
+{"version":3,"file":"config.js","sources":["API/config.js"],"sourcesContent":["import axios from '@/uilts/axios.js'\n\nexport const getCourseConfigAPISync = async () => {\n\tconst res = await axios.get(\"/common/config\")\n\treturn res.data.data\n}"],"names":["axios"],"mappings":";;AAEY,MAAC,yBAAyB,YAAY;AACjD,QAAM,MAAM,MAAMA,oBAAM,IAAI,gBAAgB;AAC5C,SAAO,IAAI,KAAK;AACjB;;"}

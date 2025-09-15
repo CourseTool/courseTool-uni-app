@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "select-class": "../../components/select-class/select-class",
+    "custom-tabbar": "../../components/custom-tabbar/custom-tabbar"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "wu-calendar": "../../uni_modules/wu-calendar/components/wu-calendar/wu-calendar"
+  }
+}

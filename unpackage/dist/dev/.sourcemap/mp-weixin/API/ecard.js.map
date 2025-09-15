@@ -1,0 +1,1 @@
+{"version":3,"file":"ecard.js","sources":["API/ecard.js"],"sourcesContent":["import axios from \"@/uilts/axios.js\";\n\nexport async function getElectricAPI(dormId) {\n    return await axios.get(\"/ecard/electric?dormId=\" + dormId);\n}\n"],"names":["axios"],"mappings":";;AAEO,eAAe,eAAe,QAAQ;AACzC,SAAO,MAAMA,YAAAA,QAAM,IAAI,4BAA4B,MAAM;AAC7D;;"}

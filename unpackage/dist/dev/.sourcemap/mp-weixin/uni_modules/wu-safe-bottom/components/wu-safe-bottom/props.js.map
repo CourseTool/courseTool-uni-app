@@ -1,0 +1,1 @@
+{"version":3,"file":"props.js","sources":["uni_modules/wu-safe-bottom/components/wu-safe-bottom/props.js"],"sourcesContent":["export default {\n    props: {\n\t\t...uni.$w?.props?.safeBottom\n    }\n}\n"],"names":["uni"],"mappings":";;;AAAA,MAAe,QAAA;AAAA,EACX,OAAO;AAAA,IACT,IAAGA,yBAAG,MAAC,OAAJA,mBAAQ,UAARA,mBAAe;AAAA,EACf;AACL;;"}

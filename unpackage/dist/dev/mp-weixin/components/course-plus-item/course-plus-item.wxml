@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" style="{{b}}" class="course-plus-item empty"><view>没课</view></view><view wx:else style="{{e}}" class="{{['course-plus-item', f && 'grid']}}"><view>{{c}}</view><view>{{d}}</view></view>

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wu-calendar-block": "../wu-calendar-block/wu-calendar-block",
+    "wu-icon": "../../../wu-icon/components/wu-icon/wu-icon",
+    "wu-safe-bottom": "../../../wu-safe-bottom/components/wu-safe-bottom/wu-safe-bottom"
+  }
+}

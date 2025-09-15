@@ -1,0 +1,1 @@
+{"version":3,"file":"mpMixin.js","sources":["uni_modules/wu-ui-tools/libs/mixin/mpMixin.js"],"sourcesContent":["export default {\n    // #ifdef MP-WEIXIN\n    // 将自定义节点设置成虚拟的（去掉自定义组件包裹层），更加接近Vue组件的表现，能更好的使用flex属性\n    options: {\n        virtualHost: true\n    }\n    // #endif\n}"],"names":[],"mappings":";AAAA,MAAe,UAAA;AAAA;AAAA,EAGX,SAAS;AAAA,IACL,aAAa;AAAA,EAChB;AAEL;;"}
